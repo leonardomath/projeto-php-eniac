@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.box-login {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	text-align: center;
+}
+
+.box-login input, .box-login button {
+	width: 100%;
+	height: 40px;
+	margin: 5px 0;
+}
+
+.box-login .title {
+	margin-bottom: 0px !important;
+}
+
+.box-login h2 {
+	margin-bottom: 20px;
+}
+
+.search-container, .container {
+	margin-top: 60px !important;
+}
+
+.search-container input, .container input {
+	margin: 5px 0px;
+}
+
+.container button {
+	margin: 10px 0px;
+}
+
+.search-container textarea {
+	height: 120px !important;
+}
+
+.search-container {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.search-container input {
+	width: 100%;
+	max-width: 700px;
+	margin: 10px 0;
+}
+
+nav {
+	width: 100%;
+	height: 40px;
+	background: #363636;
+	top: 0;
+	left: 0;
+	position: relative;
+}
+
+nav ul {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 400px 1fr;
+}
+
+nav .usuario-logado {
+	height: 40px;
+	line-height: 35px;
+	padding-left: 10px;
+}
+
+nav .opcoes {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	height: 40px;
+}
+
+nav .opcoes a {
+	padding: 6px 10px;
+}
+
+nav ul a, nav ul li {
+	color: #fff;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+span {
+	color: #0a0a0a;
+}
+
+.fl-right {
+	position: absolute !important;
+	right: 10px !important;
+}
+
+.relative {
+	position: relative;
+}
+
+button {
+	cursor: pointer !important;
+}
